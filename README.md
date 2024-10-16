@@ -1,6 +1,6 @@
 # Full-stack challenge task
 
-This is a fun frontend challenge I had to do as a hiring task (the company agreed to let me show it on GH), which includes some matrix magic on the backend, complemented by a fun frontend. While it's not a real-world scenario, it's a nice way to demonstrate some of my skills and technologies.
+This is a fun frontend challenge I did task (the company agreed to let me show it on GH), which includes some matrix magic on the backend, complemented by a fun frontend. While it's not a real-world scenario, it's a nice way to demonstrate some of my skills and technologies.
 
 ## The stack:
 
