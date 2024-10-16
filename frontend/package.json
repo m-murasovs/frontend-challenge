@@ -1,0 +1,39 @@
+{
+    "name": "frontend-challenge",
+    "private": true,
+    "version": "1.0.0",
+    "description": "Frontend for challenge",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+        "cypress": "npx cypress open",
+        "test:components": "npx cypress run --component",
+        "test:e2e": "npx cypress run --e2e"
+    },
+    "dependencies": {
+        "@floating-ui/react": "^0.26.5",
+        "@radix-ui/react-checkbox": "^1.0.4",
+        "@radix-ui/react-toggle-group": "^1.0.4",
+        "@tanstack/react-query": "^4.36.1",
+        "axios": "^1.6.5",
+        "prop-types": "^15.8.1",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "styled-components": "^6.1.6"
+    },
+    "devDependencies": {
+        "@types/react": "^18.3.11",
+        "@types/react-dom": "^18.3.1",
+        "@vitejs/plugin-react-swc": "^3.5.0",
+        "cypress": "^13.6.2",
+        "eslint": "^8.55.0",
+        "eslint-plugin-cypress": "^2.15.1",
+        "eslint-plugin-react": "^7.33.2",
+        "eslint-plugin-react-hooks": "^4.6.0",
+        "eslint-plugin-react-refresh": "^0.4.5",
+        "typescript": "^5.6.3",
+        "vite": "^5.0.8",
+        "vite-plugin-svgr": "^4.2.0"
+    }
+}
